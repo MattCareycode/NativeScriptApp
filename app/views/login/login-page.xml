@@ -2,7 +2,7 @@
 <ActionBar title="Groceries"></ActionBar>
     <FlexboxLayout>
           <StackLayout id="form" class="{{ isLoggingIn ? 'form' : 'form dark' }}" orientation="vertical">
-            <Image src="~/images/Hot-Dogs.jpg" />
+            <Image src="https://www.nativescript.org/images/default-source/landingpages/logo.png" />
 
             <TextField class="input input-border" id="email" text="{{ email }}" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
             <TextField class="input input-border" secure="true" text="{{ password }}" hint="Password" />
